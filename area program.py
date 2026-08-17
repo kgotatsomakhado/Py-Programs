@@ -36,7 +36,7 @@ def switches(programs):
         case 2:
             print("*******************************************************")
             print("")
-            print("We are finding the Area of a triangle right now")
+            print("   We are finding the Area of a triangle right now")
             print("")
             print("*******************************************************")
             print("")
@@ -53,7 +53,7 @@ def switches(programs):
         case 3:
             print("*******************************************************")
             print("")
-            print("We are finding the Area of a rectangle right now")
+            print("   We are finding the Area of a rectangle right now")
             print("")
             print("*******************************************************")
             print("")
@@ -70,7 +70,7 @@ def switches(programs):
         case 4:
             print("*******************************************************")
             print("")
-            print("We are finding the Area of a circle right now")
+            print("    We are finding the Area of a circle right now")
             print("")
             print("*******************************************************")
             print("")
