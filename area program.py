@@ -35,9 +35,11 @@ def switches(programs):
             return
         case 2:
             print("*******************************************************")
+            print("")
             print("We are finding the Area of a triangle right now")
             print("")
             print("*******************************************************")
+            print("")
             base= input("Please enter the base of the triangle: ")
             height= input("Please enter the height of the triangle: ")
             base=int(base)
@@ -45,6 +47,7 @@ def switches(programs):
             triangle_area = 0.5 * base * height
             print("")
             print(f"The area of your triangle is {triangle_area}")
+            print("")
             print("*******************************************************")
             return 
         case 3:
