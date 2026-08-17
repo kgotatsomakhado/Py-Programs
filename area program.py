@@ -1,4 +1,7 @@
-print("Welcome To The Area program")
+print("*******************************************************")
+print("         Welcome To The Area program")
+print("")
+print("*******************************************************")
 print("")
 print("Choose your favoured program:")
 print("")
@@ -7,6 +10,7 @@ print("2. Area of a triangle")
 print("3. Area of a rectangle")
 print("4. Area of a circle")
 print("")
+print("*******************************************************")
 
 programs=int(input("Choose your program: "))
 
