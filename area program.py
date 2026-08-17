@@ -10,9 +10,11 @@ print("2. Area of a triangle")
 print("3. Area of a rectangle")
 print("4. Area of a circle")
 print("")
+programs=int(input("Select your program: "))
+print("")
 print("*******************************************************")
 
-programs=int(input("Choose your program: "))
+
 
 def switches(programs):
     match programs:
