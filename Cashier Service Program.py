@@ -47,6 +47,7 @@ def program():
        print("Thank you for using the Casier Service Program") 
     else:
        print("Invalid input")  
+#End of Block 
 
 #Start of Block
  elif product == 2:
@@ -58,8 +59,9 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+#End of Block 
 
- #Start of Block   
+#Start of Block   
  elif product == 3:
     price = float(input("How much did the customer pay for the Burger: "))
     change = float(price - Burger)
@@ -69,6 +71,7 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+#End of Block 
 
 #Start of Block    
  elif product == 4:
@@ -113,6 +116,6 @@ def program():
     
 
 program()                
-
+#End of Program
     
     
