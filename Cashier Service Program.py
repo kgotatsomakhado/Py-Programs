@@ -38,7 +38,7 @@ def program():
     print(f"The customer paid R{price}")
     print(f"The customers change is R{change}")
     print("")
-    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    restart_program = str(input("While we are at it, would you like to serve another customer? (Y/N): ")).lower()
     print("")
     if restart_program == "y":  
        program()
@@ -63,7 +63,7 @@ def program():
     print(f"The customer paid R{price}")
     print(f"The customers change is R{change}")
     print("")
-    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    restart_program = str(input("While we are at it, would you like to serve another customer? (Y/N): ")).lower()
     print("")
     if restart_program == "y":  
        program()
@@ -88,7 +88,7 @@ def program():
     print(f"The customer paid R{price}")
     print(f"The customers change is R{change}")
     print("")
-    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    restart_program = str(input("While we are at it, would you like to serve another customer? (Y/N): ")).lower()
     print("")
     if restart_program == "y":  
        program()
@@ -113,7 +113,7 @@ def program():
     print(f"The customer paid R{price}")
     print(f"The customers change is R{change}")
     print("")
-    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    restart_program = str(input("While we are at it, would you like to serve another customer? (Y/N): ")).lower()
     print("")
     if restart_program == "y":  
        program()
@@ -138,7 +138,7 @@ def program():
     print(f"The customer paid R{price}")
     print(f"The customers change is R{change}")
     print("")
-    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    restart_program = str(input("While we are at it, would you like to serve another customer? (Y/N): ")).lower()
     print("")
     if restart_program == "y":  
        program()
@@ -163,7 +163,7 @@ def program():
     print(f"The customer paid R{price}")
     print(f"The customers change is R{change}")
     print("")
-    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    restart_program = str(input("While we are at it, would you like to serve another customer? (Y/N): ")).lower()
     print("")
     if restart_program == "y":  
        program()
