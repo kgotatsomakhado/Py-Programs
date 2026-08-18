@@ -35,9 +35,58 @@ if product == 1:
     print("")
     print(f"The customers total is R{Burger_and_chips}")
     print(f"The customer paid R{price}")
-    print(f"The customers change was R{change}")
+    print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+elif product == 2:
+    price = float(input("How much did the customer pay for the Pizza: "))
+    change = float(price - Pizza)
+    print("")
+    print(f"The customers total is R{Pizza}")
+    print(f"The customer paid R{price}")
+    print(f"The customers change is R{change}")
+    print("")
+    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+elif product == 3:
+    price = float(input("How much did the customer pay for the Burger: "))
+    change = float(price - Burger)
+    print("")
+    print(f"The customers total is R{Burger}")
+    print(f"The customer paid R{price}")
+    print(f"The customers change is R{change}")
+    print("")
+    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+elif product == 4:
+    price = float(input("How much did the customer pay for the Chips: "))
+    change = float(price - Chips)
+    print("")
+    print(f"The customers total is R{Chips}")
+    print(f"The customer paid R{price}")
+    print(f"The customers change is R{change}")
+    print("")
+    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+elif product == 5:
+    price = float(input("How much did the customer pay for the Cool Drink: "))
+    change = float(price - Cool_drink)
+    print("")
+    print(f"The customers total is R{Cool_drink}")
+    print(f"The customer paid R{price}")
+    print(f"The customers change is R{change}")
+    print("")
+    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+elif product == 6:
+    price = float(input("How much did the customer pay for the Burger & Chips: "))
+    change = float(price - Ice_cream)
+    print("")
+    print(f"The customers total is R{Ice_cream}")
+    print(f"The customer paid R{price}")
+    print(f"The customers change is R{change}")
+    print("")
+    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")   
+else:
+    print("You have entered an invalid input, please choose the numbers from the Product list") 
+
+                
 
     
     
