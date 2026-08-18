@@ -24,7 +24,11 @@ def program():
  print("5. Cool Drink")
  print("6. Ice cream")
  print("")
- product = int(input("What did the customer buy?: "))
+ try:
+    product = int(input("What did the customer buy?: "))
+ except ValueError:
+    print("")
+    print("Invalid input")
  print("")
  print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
  print("")
