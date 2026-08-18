@@ -29,6 +29,7 @@ def program():
  print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
  print("")
 
+#Start of Block
  if product == 1:
     price = float(input("How much did the customer pay for the Burger & Chips: "))
     change = float(price - Burger_and_chips)
@@ -47,6 +48,7 @@ def program():
     else:
        print("Invalid input")  
 
+#Start of Block
  elif product == 2:
     price = float(input("How much did the customer pay for the Pizza: "))
     change = float(price - Pizza)
@@ -56,6 +58,8 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
+ #Start of Block   
  elif product == 3:
     price = float(input("How much did the customer pay for the Burger: "))
     change = float(price - Burger)
@@ -65,6 +69,8 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
+#Start of Block    
  elif product == 4:
     price = float(input("How much did the customer pay for the Chips: "))
     change = float(price - Chips)
@@ -74,6 +80,9 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+#End of Block      
+
+ #Start of Block   
  elif product == 5:
     price = float(input("How much did the customer pay for the Cool Drink: "))
     change = float(price - Cool_drink)
@@ -83,6 +92,9 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+#End of Block      
+
+#Start of Block    
  elif product == 6:
     price = float(input("How much did the customer pay for the Ice cream: "))
     change = float(price - Ice_cream)
@@ -91,9 +103,14 @@ def program():
     print(f"The customer paid R{price}")
     print(f"The customers change is R{change}")
     print("")
-    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")   
+    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$") 
+#End of Block 
+
+#Start of Block       
  else:
-    print("You have entered an invalid input, please choose the numbers from the Product list") 
+    print("You have entered an invalid input, please choose the numbers from the Product list")
+#End of Block    
+    
 
 program()                
 
