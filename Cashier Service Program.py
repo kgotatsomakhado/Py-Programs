@@ -40,10 +40,13 @@ def program():
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
     print("")
     restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
-    if restart_program == y:  
+    if restart_program == "y":  
        program()
-    elif restart_program == n:
-       print("Thank you for using the Casier Service Program")      
+    elif restart_program == "n":
+       print("Thank you for using the Casier Service Program") 
+    else:
+       print("Invalid input")  
+
  elif product == 2:
     price = float(input("How much did the customer pay for the Pizza: "))
     change = float(price - Pizza)
