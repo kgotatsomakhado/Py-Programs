@@ -1,0 +1,5 @@
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+print("")
+print("   Welcome To The Cashier Program")
+print("")
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
