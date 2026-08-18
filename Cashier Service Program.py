@@ -27,12 +27,17 @@ print("")
 product= int(input("What did the customer buy?: "))
 print("")
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+print("")
 
 if product == 1:
     price = float(input("How much did the customer pay for the Burger & Chips: "))
     change = float(price - Burger_and_chips)
+    print("")
     print(f"The customers total is R{Burger_and_chips}")
     print(f"The customer paid R{price}")
     print(f"The customers change was R{change}")
+    print("")
+    print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
     
     
