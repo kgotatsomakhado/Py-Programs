@@ -8,28 +8,28 @@ Cool_drink = 10
 Ice_cream = 5
 
 #Program
+def program():
+ print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+ print("")
+ print("   Welcome To The Cashier Program")
+ print("")
+ print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+ print("")
+ print("Choose what the customer bought:  ")
+ print("")
+ print("1. Burger & Chips")
+ print("2. Pizza")
+ print("3. Burger Only")
+ print("4. Chips Only")
+ print("5. Cool Drink")
+ print("6. Ice cream")
+ print("")
+ product= int(input("What did the customer buy?: "))
+ print("")
+ print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+ print("")
 
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-print("")
-print("   Welcome To The Cashier Program")
-print("")
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-print("")
-print("Choose what the customer bought:  ")
-print("")
-print("1. Burger & Chips")
-print("2. Pizza")
-print("3. Burger Only")
-print("4. Chips Only")
-print("5. Cool Drink")
-print("6. Ice cream")
-print("")
-product= int(input("What did the customer buy?: "))
-print("")
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-print("")
-
-if product == 1:
+ if product == 1:
     price = float(input("How much did the customer pay for the Burger & Chips: "))
     change = float(price - Burger_and_chips)
     print("")
@@ -38,7 +38,8 @@ if product == 1:
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-elif product == 2:
+    
+ elif product == 2:
     price = float(input("How much did the customer pay for the Pizza: "))
     change = float(price - Pizza)
     print("")
@@ -47,7 +48,7 @@ elif product == 2:
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-elif product == 3:
+ elif product == 3:
     price = float(input("How much did the customer pay for the Burger: "))
     change = float(price - Burger)
     print("")
@@ -56,7 +57,7 @@ elif product == 3:
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-elif product == 4:
+ elif product == 4:
     price = float(input("How much did the customer pay for the Chips: "))
     change = float(price - Chips)
     print("")
@@ -65,7 +66,7 @@ elif product == 4:
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-elif product == 5:
+ elif product == 5:
     price = float(input("How much did the customer pay for the Cool Drink: "))
     change = float(price - Cool_drink)
     print("")
@@ -74,7 +75,7 @@ elif product == 5:
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
-elif product == 6:
+ elif product == 6:
     price = float(input("How much did the customer pay for the Ice cream: "))
     change = float(price - Ice_cream)
     print("")
@@ -83,10 +84,10 @@ elif product == 6:
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")   
-else:
+ else:
     print("You have entered an invalid input, please choose the numbers from the Product list") 
 
-                
+program()                
 
     
     
