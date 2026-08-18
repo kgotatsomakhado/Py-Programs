@@ -63,6 +63,18 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+    print("")
+    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    print("")
+    print("")
+    print("")
+    print("")
+    if restart_program == "y":  
+       program()
+    elif restart_program == "n":
+       print("Thank you for using the Casier Service Program") 
+    else:
+       print("Invalid input")  
 #End of Block 
 
 #Start of Block   
@@ -75,6 +87,18 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+    print("")
+    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    print("")
+    print("")
+    print("")
+    print("")
+    if restart_program == "y":  
+       program()
+    elif restart_program == "n":
+       print("Thank you for using the Casier Service Program") 
+    else:
+       print("Invalid input")  
 #End of Block 
 
 #Start of Block    
@@ -87,6 +111,18 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+    print("")
+    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    print("")
+    print("")
+    print("")
+    print("")
+    if restart_program == "y":  
+       program()
+    elif restart_program == "n":
+       print("Thank you for using the Casier Service Program") 
+    else:
+       print("Invalid input")  
 #End of Block      
 
  #Start of Block   
@@ -99,6 +135,18 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+    print("")
+    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    print("")
+    print("")
+    print("")
+    print("")
+    if restart_program == "y":  
+       program()
+    elif restart_program == "n":
+       print("Thank you for using the Casier Service Program") 
+    else:
+       print("Invalid input")  
 #End of Block      
 
 #Start of Block    
@@ -111,6 +159,18 @@ def program():
     print(f"The customers change is R{change}")
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$") 
+    print("")
+    restart_program = str(input("While we are at it, would you like to serve another customer? (y/n): "))
+    print("")
+    print("")
+    print("")
+    print("")
+    if restart_program == "y":  
+       program()
+    elif restart_program == "n":
+       print("Thank you for using the Casier Service Program") 
+    else:
+       print("Invalid input")  
 #End of Block 
 
 #Start of Block       
