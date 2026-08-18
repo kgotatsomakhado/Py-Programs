@@ -75,7 +75,7 @@ elif product == 5:
     print("")
     print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 elif product == 6:
-    price = float(input("How much did the customer pay for the Burger & Chips: "))
+    price = float(input("How much did the customer pay for the Ice cream: "))
     change = float(price - Ice_cream)
     print("")
     print(f"The customers total is R{Ice_cream}")
