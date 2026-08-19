@@ -15,3 +15,11 @@ def calculator():
  program = int(input("What do you want to do today: "))
  print("") 
  print("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&")
+
+ if program == 1:
+  print("Welcome To the addition program")
+  print("")
+  num1 = float(input("Please enter the first number: "))
+  print("")
+  num2 = float(input("Please enter the second number: "))
+  print
